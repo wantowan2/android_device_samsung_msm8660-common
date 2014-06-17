@@ -17,7 +17,7 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/msm8660-common/include
 # Platform
 TARGET_BOARD_PLATFORM := msm8660
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
-TARGET_CPU_VARIANT := scorpion
+TARGET_CPU_VARIANT := cortex-a8
 TARGET_CPU_SMP := true
 
 # inherit from qcom-common
@@ -77,7 +77,6 @@ BOARD_CAMERA_USE_MM_HEAP := true
 TARGET_PROVIDES_LIBLIGHT := true
 
 # Audio
-TARGET_QCOM_MEDIA_VARIANT := caf
 BOARD_HAVE_SAMSUNG_AUDIO := true
 BOARD_QCOM_VOIP_ENABLED := true
 BOARD_QCOM_TUNNEL_LPA_ENABLED := true

@@ -71,10 +71,10 @@
         <item>1</item>
     </string-array>
     <string-array name="touchscreen_sensitivity_entries">
-        <item>10</item>
+        <item>10 (Default)</item>
         <item>20</item>
         <item>30</item>
-        <item>50 (Default)</item>
+        <item>50</item>
         <item>70</item>
         <item>100</item>
     </string-array>
